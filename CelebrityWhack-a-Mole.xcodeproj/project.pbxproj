@@ -15,6 +15,8 @@
 		1C799E501C4D924F00451C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C799E4E1C4D924F00451C5A /* LaunchScreen.storyboard */; };
 		1C799E5B1C4D924F00451C5A /* CelebrityWhack_a_MoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C799E5A1C4D924F00451C5A /* CelebrityWhack_a_MoleTests.m */; };
 		1C799E661C4D924F00451C5A /* CelebrityWhack_a_MoleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C799E651C4D924F00451C5A /* CelebrityWhack_a_MoleUITests.m */; };
+		1C799E751C4D938900451C5A /* game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C799E741C4D938900451C5A /* game.m */; };
+		1C799E7A1C4D98E500451C5A /* donald.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C799E791C4D98E500451C5A /* donald.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		1C799E611C4D924F00451C5A /* CelebrityWhack-a-MoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CelebrityWhack-a-MoleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C799E651C4D924F00451C5A /* CelebrityWhack_a_MoleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelebrityWhack_a_MoleUITests.m; sourceTree = "<group>"; };
 		1C799E671C4D924F00451C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C799E731C4D938200451C5A /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		1C799E741C4D938900451C5A /* game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = game.m; sourceTree = "<group>"; };
+		1C799E791C4D98E500451C5A /* donald.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donald.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		1C799E3F1C4D924F00451C5A /* CelebrityWhack-a-Mole */ = {
 			isa = PBXGroup;
 			children = (
+				1C799E781C4D985900451C5A /* images */,
 				1C799E431C4D924F00451C5A /* AppDelegate.h */,
 				1C799E441C4D924F00451C5A /* AppDelegate.m */,
 				1C799E461C4D924F00451C5A /* ViewController.h */,
 				1C799E471C4D924F00451C5A /* ViewController.m */,
+				1C799E731C4D938200451C5A /* game.h */,
+				1C799E741C4D938900451C5A /* game.m */,
 				1C799E491C4D924F00451C5A /* Main.storyboard */,
 				1C799E4C1C4D924F00451C5A /* Assets.xcassets */,
 				1C799E4E1C4D924F00451C5A /* LaunchScreen.storyboard */,
@@ -138,6 +146,14 @@
 				1C799E671C4D924F00451C5A /* Info.plist */,
 			);
 			path = "CelebrityWhack-a-MoleUITests";
+			sourceTree = "<group>";
+		};
+		1C799E781C4D985900451C5A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1C799E791C4D98E500451C5A /* donald.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +265,7 @@
 				1C799E501C4D924F00451C5A /* LaunchScreen.storyboard in Resources */,
 				1C799E4D1C4D924F00451C5A /* Assets.xcassets in Resources */,
 				1C799E4B1C4D924F00451C5A /* Main.storyboard in Resources */,
+				1C799E7A1C4D98E500451C5A /* donald.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +293,7 @@
 				1C799E481C4D924F00451C5A /* ViewController.m in Sources */,
 				1C799E451C4D924F00451C5A /* AppDelegate.m in Sources */,
 				1C799E421C4D924F00451C5A /* main.m in Sources */,
+				1C799E751C4D938900451C5A /* game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
