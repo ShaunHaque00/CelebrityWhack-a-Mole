@@ -17,6 +17,7 @@
 		1C799E661C4D924F00451C5A /* CelebrityWhack_a_MoleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C799E651C4D924F00451C5A /* CelebrityWhack_a_MoleUITests.m */; };
 		1C799E751C4D938900451C5A /* game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C799E741C4D938900451C5A /* game.m */; };
 		1C799E7A1C4D98E500451C5A /* donald.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C799E791C4D98E500451C5A /* donald.png */; };
+		41FF1DD11C4D9CC300A17EA3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FF1DD01C4D9CC300A17EA3 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		1C799E731C4D938200451C5A /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
 		1C799E741C4D938900451C5A /* game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = game.m; sourceTree = "<group>"; };
 		1C799E791C4D98E500451C5A /* donald.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donald.png; sourceTree = "<group>"; };
+		41FF1DD01C4D9CC300A17EA3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				1C799E791C4D98E500451C5A /* donald.png */,
+				41FF1DD01C4D9CC300A17EA3 /* background.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				1C799E4D1C4D924F00451C5A /* Assets.xcassets in Resources */,
 				1C799E4B1C4D924F00451C5A /* Main.storyboard in Resources */,
 				1C799E7A1C4D98E500451C5A /* donald.png in Resources */,
+				41FF1DD11C4D9CC300A17EA3 /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +521,7 @@
 				1C799E6C1C4D924F00451C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C799E6D1C4D924F00451C5A /* Build configuration list for PBXNativeTarget "CelebrityWhack-a-MoleTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				1C799E6F1C4D924F00451C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C799E701C4D924F00451C5A /* Build configuration list for PBXNativeTarget "CelebrityWhack-a-MoleUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				1C799E721C4D924F00451C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

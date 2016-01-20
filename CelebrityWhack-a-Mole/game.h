@@ -30,8 +30,25 @@
 
     __weak IBOutlet UIButton *box9;
     
+    __weak IBOutlet UIImageView *donald1;
     
+    __weak IBOutlet UIImageView *donald2;
     
+    __weak IBOutlet UIImageView *donald3;
+    
+    __weak IBOutlet UIImageView *donald4;
+    
+    __weak IBOutlet UIImageView *donald5;
+    
+    __weak IBOutlet UIImageView *donald6;
+    
+    __weak IBOutlet UIImageView *donald7;
+    
+    __weak IBOutlet UIImageView *donald8;
+    
+    __weak IBOutlet UIImageView *donald9;
+    
+    __weak IBOutlet UIImageView *Background;
     
     
     
